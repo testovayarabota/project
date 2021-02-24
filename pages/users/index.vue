@@ -10,7 +10,7 @@
   </selection>
 </template>
 
-<scrip>
+<script>
 export default {
  methods: {
   openUser(user) {
