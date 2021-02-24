@@ -1,6 +1,6 @@
 <template>
   <selection>
-    <h1> Users </h1>
+    <h1> {{pageTitle}} </h1>
 
     <ul>
      <li v-for="user of users" :key="user.id">
@@ -17,7 +17,7 @@ async asyncData({axios}) {
    return {users}
 },
 data: () => ({
-  users: []
+  pageTitle: 'Users page'
 }),
 methods: {
   openUser(user) {
