@@ -30,7 +30,14 @@ export default {
 
 </script>
 
-<style>
+<style scoped>
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: linear-gradient(to right, #b92b27, #1565c0)
+}
 
 .box {
     width: 500px;
