@@ -49,7 +49,7 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    background: #000000;
+    background: white;
     ;
     text-align: center;
     transition: 0.25s;
