@@ -6,9 +6,8 @@
 
 <script>
 export default {
- validate() {
- console.log('validate')
- return true
+ validate({params}) {
+ return /^\d+$/.test(params.id)
  }
 }
 </script>
