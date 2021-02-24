@@ -40,8 +40,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-    animation: gradient 15s ease infinite;
+    background: linear-gradient(to right, #b92b27, #1565c0)
 }
 
 .box {
@@ -50,23 +49,10 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-    animation: gradient 15s ease infinite;
+    background: linear-gradient(to right, #b92b27, #1565c0);
     text-align: center;
     transition: 0.25s;
     margin-top: 100px
-}
-
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
 }
 
 .box input[type="text"],
@@ -183,8 +169,6 @@ a.socialIcon:hover,
     transition: all 0.8s;
     transition: all 0.8s
 }
-
-
 
 
 </style>
