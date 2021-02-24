@@ -4,7 +4,7 @@
 
     <ul>
      <li v-for="user of users" :key="user.id">
-      <a href="#" @click.prevent="openUser(user)">User {{user.name}} </a>
+      <a href="#" @click.prevent="openUser(user)">User {{user}} </a>
       </li>
     </ul>
   </selection>
@@ -12,7 +12,7 @@
 
 <script>
 export default {
-async asyncData({axios}) {
+   async asyncData({axios}) {
    const users = await this.$axios.$get('https://jsonplaceholder.typicode.com/users')
    return {users}
 },
