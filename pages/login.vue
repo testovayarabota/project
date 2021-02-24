@@ -31,14 +31,15 @@ export default {
 </script>
 
 <style>
-<!--
-body {
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-    background: linear-gradient(to right, #b92b27, #1565c0)
-}
--->
+/*
+/*
+/* body {
+/*    margin: 0;
+/*    padding: 0;
+/*    font-family: sans-serif;
+/*    background: linear-gradient(to right, #b92b27, #1565c0)
+/*}
+/*
 .box {
     width: 500px;
     padding: 40px;
