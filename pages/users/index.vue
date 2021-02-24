@@ -12,13 +12,14 @@
 
 <script>
 export default {
+async asyncData({axios}) {
+   const users = await this.$axios.$get('https://jsonplaceholder.typicode.com/users')
+   return {users}
+},
 data: () => ({
   users: []
 }),
-async mounted() {
-  this.users = await this.$axios.$get('https://jsonplaceholder.typicode.com/users')
-},
- methods: {
+methods: {
   openUser(user) {
    this.$router.push('/users/' + user)
   }
