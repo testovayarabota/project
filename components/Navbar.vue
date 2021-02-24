@@ -18,9 +18,6 @@
           About
           </nuxt-link>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/link2">Link2</a>
-        </li>
       </ul>
     </div>
     <form class="d-flex">
