@@ -1,7 +1,7 @@
 <template>
-  <selection>
-
-  </selection>
+ <div class="empty-layout">
+  <nuxt />
+ </div>
 </template>
 
 <script>
