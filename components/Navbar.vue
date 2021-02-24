@@ -9,12 +9,9 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <nuxt-link active-class="active" class="nav-link" aria-current="page" to="/">
+          <nuxt-link exact active-class="active" class="nav-link" aria-current="page" to="/">
           Home
           </nuxt-link>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/link">Link</a>
         </li>
         <li class="nav-item">
           <nuxt-link active-class="active" class="nav-link" to="/about">
