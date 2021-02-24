@@ -22,7 +22,7 @@ data: () => ({
 }),
 computed: {
   users() {
-    return store.getters['users/users']
+    return this.$store.getters['users/users']
 }
 },
 methods: {
