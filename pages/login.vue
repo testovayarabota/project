@@ -11,11 +11,11 @@
                       <input type="password" name="" placeholder="Password">
                        <a class="forgot text-muted" href="#">Forgot password?</a>
                        <input type="submit" name="" value="Login" href="#">
-                       <li class="nav-item">
+
                          <nuxt-link exact active-class="active" class="nav-link" aria-current="page" to="/">
                           Home
                          </nuxt-link>
-                       </li>
+          
                       <div class="col-md-12">
                       </div>
                   </form>
@@ -49,6 +49,8 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
+    background: #191919;
+    ;
     text-align: center;
     transition: 0.25s;
     margin-top: 100px
