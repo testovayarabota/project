@@ -12,7 +12,7 @@ export default {
  return /^\d+$/.test(params.id)
  },
  async asyncData({axios, params}) {
-   const user = await this.$axios.$get('https://jsonplaceholder.typicode.com/users' + params.id)
+   const user = await this.$axios.$get('https://jsonplaceholder.typicode.com/users/' + params.id)
    return {user}
 }
 }
