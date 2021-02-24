@@ -21,7 +21,7 @@ data: () => ({
 }),
 methods: {
   openUser(user) {
-   this.$router.push('/users/' + user)
+   this.$router.push('/users/' + user.id)
   }
  }
 }
