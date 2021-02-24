@@ -13,7 +13,7 @@
 <script>
 export default {
    async fetch({store}) {
-    if (store.getters.['users/users'].length === 0) {
+    if (store.getters['users/users'].length === 0) {
       await store.dispatch('users/fetch')
     }
    },
@@ -22,7 +22,7 @@ data: () => ({
 }),
 computed: {
   users() {
-    return store.getters.['users/users']
+    return store.getters['users/users']
 }
 },
 methods: {
