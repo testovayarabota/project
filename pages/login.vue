@@ -1,21 +1,29 @@
 <template>
   <selection>
-    <form>
-  <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+
+<div class="wrapper fadeInDown">
+<div id="formContent">
+  <!-- Tabs Titles -->
+
+  <!-- Icon -->
+  <div class="fadeIn first">
+    <img src="http://danielzawadzki.com/codepen/01/icon.svg" id="icon" alt="User Icon" />
   </div>
-  <div class="mb-3">
-    <label for="exampleInputPassword1" class="form-label">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1">
+
+  <!-- Login Form -->
+  <form>
+    <input type="text" id="login" class="fadeIn second" name="login" placeholder="login">
+    <input type="text" id="password" class="fadeIn third" name="login" placeholder="password">
+    <input type="submit" class="fadeIn fourth" value="Log In">
+  </form>
+
+  <!-- Remind Passowrd -->
+  <div id="formFooter">
+    <a class="underlineHover" href="#">Forgot Password?</a>
   </div>
-  <div class="mb-3 form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-    <label class="form-check-label" for="exampleCheck1">Check me out</label>
-  </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
-</form>
+
+</div>
+</div>
 
   </selection>
 </template>
