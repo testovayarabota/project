@@ -18,8 +18,8 @@
            About
           </nuxt-link>
         <li class="nav-item">
-          <nuxt-link active-class="active" class="nav-link" to="/about">
-           About
+          <nuxt-link active-class="active" class="nav-link" to="/users">
+           Users
           </nuxt-link>
         </li>
       </ul>
