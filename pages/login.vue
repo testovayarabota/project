@@ -49,7 +49,7 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    background: white;
+    background: linear-gradient(to right, #b92b27, #1565c0)
     ;
     text-align: center;
     transition: 0.25s;
