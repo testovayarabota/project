@@ -3,7 +3,7 @@
     <h1> {{pageTitle}} </h1>
 
     <ul>
-     <li v-for="user of users" :key="user.i d">
+     <li v-for="user of users" :key="user.id">
       <a href="#" @click.prevent="openUser(user)">User {{user.name}} </a>
       </li>
     </ul>
