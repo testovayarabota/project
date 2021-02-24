@@ -4,6 +4,15 @@
   </selection>
 </template>
 
+<script>
+export default {
+ validate() {
+ console.log('validate')
+ return true
+ }
+}
+</script>
+
 <style>
 
 </style>
