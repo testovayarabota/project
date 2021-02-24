@@ -32,8 +32,6 @@ export default {
 
 <style>
 
-
-
 .box {
     width: 500px;
     padding: 40px;
