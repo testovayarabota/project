@@ -25,7 +25,7 @@ computed: {
   users() {
     return store.getters.['users/users']
 }
-}
+},
 methods: {
   openUser(user) {
    this.$router.push('/users/' + user.id)
