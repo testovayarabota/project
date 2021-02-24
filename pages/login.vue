@@ -15,7 +15,7 @@
                          <nuxt-link exact active-class="active" class="nav-link" aria-current="page" to="/">
                           Home
                          </nuxt-link>
-          
+
                       <div class="col-md-12">
                       </div>
                   </form>
@@ -49,7 +49,7 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    background: #191919;
+    background: #000000;
     ;
     text-align: center;
     transition: 0.25s;
