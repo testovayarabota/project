@@ -12,7 +12,7 @@
 
 <script>
 export default {
-   async asyncData({axios}) {
+   async asyncData({$axios}) {
    const users = await this.$axios.$get('https://jsonplaceholder.typicode.com/users')
    return {users}
 },

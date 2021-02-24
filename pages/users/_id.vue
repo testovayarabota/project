@@ -11,7 +11,7 @@ export default {
  validate({params}) {
  return /^\d+$/.test(params.id)
  },
- async asyncData({axios, params}) {
+ async asyncData({$axios, params}) {
    const user = await this.$axios.$get('https://jsonplaceholder.typicode.com/users/' + params.id)
    return {user}
 }
