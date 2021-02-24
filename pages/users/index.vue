@@ -16,8 +16,7 @@ export default {
     if (store.getters.['users/users'].length === 0) {
       await store.dispatch('users/fetch')
     }
-   }
-},
+   },
 data: () => ({
   pageTitle: 'Users page'
 }),
