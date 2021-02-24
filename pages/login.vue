@@ -49,8 +49,6 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    background: blue;
-    ;
     text-align: center;
     transition: 0.25s;
     margin-top: 100px
