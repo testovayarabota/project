@@ -10,12 +10,16 @@
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
           <nuxt-link exact active-class="active" class="nav-link" aria-current="page" to="/">
-          Home
+           Home
           </nuxt-link>
         </li>
         <li class="nav-item">
           <nuxt-link active-class="active" class="nav-link" to="/about">
-          About
+           About
+          </nuxt-link>
+        <li class="nav-item">
+          <nuxt-link active-class="active" class="nav-link" to="/about">
+           About
           </nuxt-link>
         </li>
       </ul>
